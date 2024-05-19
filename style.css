@@ -1,9 +1,10 @@
-/* body{
-    background-image: url(https://laserbychristine.com/wp-content/uploads/2016/12/132341-Gif-Stars-Purple-Sparkles-Yes-Sparkle-Png-Transparent-Transparency-....gif);
+body{
+    background-image: url(https://i.pinimg.com/originals/8e/f6/f1/8ef6f1e41a624f4abcc2fb6ca3c16761.gif);
+    background-size: cover;
     /* color: aliceblue; */
 
-*/
-/* } */
+
+}
 
 
 .logo {
@@ -14,7 +15,8 @@
 .container {
     height: 600px;
     width: 88%;
-    border: 10px solid black;
+    border: 10px solid rgb(85, 80, 80);
+    border-radius: 50px;
     margin: 0px auto;
     text-align: center;
     padding: 20px;
@@ -43,6 +45,11 @@
     height: 60px;
     width: 800px;
     margin: 0px auto;
-    background-color: rgb(150, 104, 104);
+    background-color: rgb(170, 170, 170);
     border-radius: 30px;
+    transition:background-color 0.9s ease-in-out;
+    cursor: pointer;
 }
+.styles:hover {
+    background-color: rgb(24, 178, 184);
+  }
